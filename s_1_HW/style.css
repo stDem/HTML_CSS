@@ -1,0 +1,38 @@
+.link_menu {
+    margin: 20px;
+    font-size: large;
+    color: rgb(22, 84, 207);
+}
+
+
+/* .text {} */
+
+.heading {
+    text-align: center;
+}
+
+.catalog_box {
+    padding-top: 100px;
+    gap: 40px;
+    margin: 10px;
+}
+
+.product {
+    display: flex;
+}
+
+.product__img {
+    background-color: #F7E4E2;
+    width: 400px;
+    height: 340px;
+    flex-shrink: 0;
+}
+
+.text_img {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: normal;
+    color: #575757;
+    padding: 22px 100px 60px 30px;
+}
