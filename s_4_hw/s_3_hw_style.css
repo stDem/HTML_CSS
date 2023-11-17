@@ -1,153 +1,299 @@
-    * {
-        margin: 0px;
-        padding: 0px;
-    }
-    
-    @font-face {
-        font-family: "Gilroy-Bold";
-        src: local("Gilroy-Bold"), local("Gilroy-Bold"), url("/s_3/s_4_hw/Gilroy/Gilroy-Bold.woff");
-    }
-    
-    @font-face {
-        font-family: "Gilroy-Medium";
-        src: local("Gilroy-Medium"), local("Gilroy-Medium"), url("/s_3/s_4_hw/Gilroy/Gilroy-Medium.woff");
-    }
-    
-    @font-face {
-        font-family: "Gilroy-SemiBold";
-        src: local("Gilroy-SemiBold"), local("Gilroy-SemiBold"), url("/s_3/s_4_hw/Gilroy/Gilroy-SemiBold.woff");
-    }
-    
-    body {
-        /* display: flex;
+            * {
+                margin: 0px;
+                padding: 0px;
+            }
+            
+            @font-face {
+                font-family: "Gilroy-Bold";
+                src: local("Gilroy-Bold"), local("Gilroy-Bold"), url("/s_3/s_4_hw/Gilroy/Gilroy-Bold.woff");
+            }
+            
+            @font-face {
+                font-family: "Gilroy-Medium";
+                src: local("Gilroy-Medium"), local("Gilroy-Medium"), url("/s_3/s_4_hw/Gilroy/Gilroy-Medium.woff");
+            }
+            
+            @font-face {
+                font-family: "Gilroy-SemiBold";
+                src: local("Gilroy-SemiBold"), local("Gilroy-SemiBold"), url("/s_3/s_4_hw/Gilroy/Gilroy-SemiBold.woff");
+            }
+            
+            @font-face {
+                font-family: "Gilroy-Regular";
+                src: local("Gilroy-Regular"), local("Gilroy-Regular"), url("/s_3/s_4_hw/Gilroy/Gilroy-Regular.woff");
+            }
+            
+            .centre {
+                /* display: flex;
         justify-content: center; */
-        margin-right: calc(50% - 750px);
-        margin-left: calc(50% - 750px);
-    }
-    
-    .top__content {
-        color: #FFFFFF;
-    }
-    
-    .top__menu__logo {
-        display: flex;
-        align-items: center;
-        gap: 14px;
-    }
-    
-    .top__menu__img {
-        padding-left: 60px;
-    }
-    
-    .top__logo__text {
-        color: #000;
-        font-family: Gilroy-Bold;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-    
-    .top__menu {
-        display: flex;
-        justify-content: flex-start;
-    }
-    
-    .top__menu__nav {
-        padding: 26px 200px 48px 337px;
-        gap: 30px;
-    }
-    
-    .nav__menu {
-        text-decoration: none;
-        padding: 10px;
-        color: #000;
-        font-family: Gilroy-SemiBold;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-    
-    .top__content__main {
-        margin: 10px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        display: flex;
-        gap: 40px;
-    }
-    
-    .top__main__info {
-        padding: 40px 0px 40px 40px;
-        width: 650px;
-    }
-    
-    .header_h1 {
-        color: #000000;
-        padding-left: 10px;
-        padding-bottom: 17px;
-        font-family: Gilroy-Bold;
-        font-size: 60px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        text-transform: uppercase;
-    }
-    
-    .top__info__text {
-        color: #888888;
-        padding-left: 10px;
-        padding-right: 40px;
-        padding-bottom: 20px;
-        color: #888;
-        font-family: Gilroy-Medium;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-    
-    .top__info__btns {
-        margin: 20px;
-        display: flex;
-        gap: 70px;
-    }
-    
-    .info__btns__start {
-        border-radius: 50px;
-        background: #F25822;
-        box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
-        width: 140px;
-        height: 50px;
-        color: #FFF;
-        font-family: Gilroy-Bold;
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        border: none;
-    }
-    
-    .info__btns__watch {
-        color: #AAA;
-        font-family: Gilroy-Bold;
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        border: none;
-        background-color: #fff;
-    }
-    
-    .top__info__img {
-        padding: 14px 110px 15px 0px;
-    }
-    
-    .top__logo {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        gap: 20px;
-        margin-top: 53px;
-    }
+                margin-right: calc(50% - 750px);
+                margin-left: calc(50% - 750px);
+            }
+            
+            .top__content {
+                color: #FFFFFF;
+            }
+            
+            .top__menu__logo {
+                display: flex;
+                align-items: center;
+                gap: 14px;
+            }
+            
+            .top__menu__img {
+                padding-left: 60px;
+            }
+            
+            .top__logo__text {
+                color: #000;
+                font-family: Gilroy-Bold;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+            
+            .top__menu {
+                display: flex;
+                justify-content: flex-start;
+            }
+            
+            .top__menu__nav {
+                padding: 26px 200px 48px 337px;
+                gap: 30px;
+            }
+            
+            .nav__menu {
+                text-decoration: none;
+                padding: 10px;
+                color: #000;
+                font-family: Gilroy-SemiBold;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+            
+            .top__content__main {
+                margin: 10px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: flex-start;
+                gap: 40px;
+            }
+            
+            .top__main__info {
+                padding: 40px 0px 40px 40px;
+                width: 650px;
+            }
+            
+            .header_h1 {
+                color: #000000;
+                padding-left: 10px;
+                padding-bottom: 17px;
+                font-family: Gilroy-Bold;
+                font-size: 60px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                text-transform: uppercase;
+            }
+            
+            .top__info__text {
+                color: #888888;
+                padding-left: 10px;
+                padding-right: 40px;
+                padding-bottom: 20px;
+                color: #888;
+                font-family: Gilroy-Medium;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+            
+            .top__info__btns {
+                margin: 20px;
+                display: flex;
+                gap: 70px;
+            }
+            
+            .info__btns__start {
+                border-radius: 50px;
+                background: #F25822;
+                box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+                width: 140px;
+                height: 50px;
+                color: #FFF;
+                font-family: Gilroy-Bold;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                border: none;
+            }
+            
+            .info__btns__watch {
+                color: #AAA;
+                font-family: Gilroy-Bold;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                border: none;
+                background-color: #fff;
+            }
+            
+            .top__info__img {
+                padding: 14px 110px 15px 0px;
+            }
+            
+            .top__logo {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: flex-start;
+                gap: 20px;
+                margin-top: 53px;
+            }
+            /* ДЗ 5 ---------------------------------------------------------------- */
+            
+            .features {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 30px;
+                margin-top: 50px;
+            }
+            
+            .features .features__box {
+                padding: 30px;
+                /* border: 1px solid #000; */
+                max-width: 381px;
+            }
+            
+            .features .features__box .features__box__img {
+                display: flex;
+                justify-content: flex-start;
+                /* paddin   : 35px 0px 25px 41px; */
+            }
+            
+            .features .features__box .features__h1 {
+                color: #000;
+                font-family: Gilroy-Bold;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+            
+            .features .features__box .features__text {
+                color: #666;
+                font-family: Gilroy-Regular;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 150%;
+                /* 22.5px */
+            }
+            
+            .features .features__box .features__text_next {
+                color: #000;
+                font-family: Gilroy-Bold;
+                font-size: 11px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 150%;
+                /* 16.5px */
+            }
+            
+            .box__shadows {
+                box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+            }
+            
+            .services {
+                background: #FAFAFA;
+                padding: 90px;
+            }
+            
+            .services .services__h1 {
+                color: #000;
+                font-family: Gilroy-Bold;
+                font-size: 45px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                display: flex;
+                justify-content: center;
+            }
+            
+            .services .services__text {
+                color: #666;
+                text-align: center;
+                font-family: Gilroy-Regular;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 150%;
+                display: flex;
+                justify-content: center;
+            }
+            
+            .services .services__boxes {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 30px;
+                margin-top: 50px;
+                /* border: 1px solid #000; */
+            }
+            
+            .services .services__boxes .services__box {
+                max-width: 380px;
+            }
+            
+            .services .services__boxes .services__box .services__box__img {
+                display: flex;
+                justify-content: flex-start;
+                background: #FFF;
+                margin-bottom: 50px;
+            }
+            
+            .services .services__boxes .services__box .services__box_h2 {
+                color: #000;
+                font-family: Gilroy-Bold;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                display: flex;
+                justify-content: center;
+            }
+            
+            .services .services__boxes .services__box .services__box__text {
+                color: #AAA;
+                text-align: center;
+                font-family: Gilroy-Regular;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 150%;
+                display: flex;
+                justify-content: center;
+                padding-bottom: 39px;
+            }
+            
+            .services .services__boxes .services__box .services__box__btn {
+                border-radius: 50px;
+                background: #F25822;
+                box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+                width: 140px;
+                height: 50px;
+                color: #FFF;
+                text-align: center;
+                font-family: Gilroy-Bold;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 150%;
+                border: none;
+                margin-left: 100px;
+                margin-bottom: 50px;
+            }
