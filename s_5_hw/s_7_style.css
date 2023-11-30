@@ -50,7 +50,7 @@
   align-items: center;
   gap: 60px;
   position: relative;
-  width: auto;
+  /* width: 100%; */
 }
 .brand__box__img {
   display: flex;
@@ -195,5 +195,29 @@
     flex-direction: column;
     flex-wrap: wrap;
     /* align-items: center; */
+  }
+}
+@media (max-width: 767px) and (min-width: 390px) {
+  /* .centre {
+    margin-right: calc(50% - 500px);
+    margin-left: calc(50% - 500px);
+} */
+  .top__menu__nav {
+    padding-right: 40px;
+  }
+  .brand__box {
+    height: 340px;
+  }
+  .brand__box__img {
+    display: none;
+  }
+  .brand__box__text {
+    display: flex;
+    align-items: center;
+  }
+  .offer__img__for {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
   }
 }
