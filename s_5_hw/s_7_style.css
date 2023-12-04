@@ -63,6 +63,9 @@
   position: absolute;
   right: 32px;
 }
+.brand__box__text h1:hover {
+  color: orange;
+}
 .brand__box__text1 {
   color: #222;
 
@@ -72,6 +75,7 @@
   font-weight: 900;
   line-height: normal;
 }
+
 .brand__box__text2 {
   color: #222;
   font-family: Lato;
@@ -92,6 +96,10 @@
   justify-content: center;
   gap: 30px;
   /* flex-wrap: wrap; */
+}
+.offer__img__for:hover {
+  transition: margin-left 1s linear;
+  margin-left: 10px;
 }
 .product {
   position: relative;
@@ -166,6 +174,56 @@
 
 .deleted {
   display: none;
+}
+.advantages {
+  background-color: #222222;
+  padding-top: 104px;
+  padding-bottom: 104px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.advantages__item {
+  width: 360px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.advantages__heading {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fbfbfb;
+}
+
+.advantages__text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #fbfbfb;
 }
 @media (max-width: 1024px) and (min-width: 768px) {
   /* .centre {
