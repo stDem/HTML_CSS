@@ -10,6 +10,7 @@
   display: flex;
   align-items: center;
   padding: 18px 230px;
+
 }
 
 .top__menu__img {
@@ -21,6 +22,7 @@
   background-color: #222;
   justify-content: space-between;
   align-items: center;
+
 }
 
 .top__menu__nav {
@@ -45,12 +47,11 @@
 }
 
 .brand__box {
-  background-color: #f1e4e6;
   display: flex;
+  background: #f1e4e6;
+  padding-left: calc(50% - 800px);
+  padding-right: calc(50% - 800px);
   align-items: center;
-  gap: 60px;
-  position: relative;
-  /* width: 100%; */
 }
 .brand__box__img {
   display: flex;
